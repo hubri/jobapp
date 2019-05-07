@@ -1,0 +1,145 @@
+#!/bin/sh
+
+
+METADATA=`cat <<EOF
+fontfamily: mathpazo
+fontsize: 12pt
+geometry: margin=1.0in
+letterhead: ./assets/letterhead/blank.png
+signature: ./assets/signature/signature0.png
+letterhead-before: -4ex
+signature-before: -4ex
+signature-after: 0ex
+closing-indentation: 0pt
+links-as-notes: true
+colorlinks: true
+...
+\n
+EOF
+`
+
+AUTHOR=`cat <<EOF
+author:
+- %s
+- %s
+- %s
+- %s
+\n
+EOF
+`
+
+DATE=`cat <<EOF
+date: %s
+\n
+EOF
+`
+
+ADDRESS=`cat <<EOF
+address:
+-
+return-address:
+- %s
+- %s
+\n
+EOF
+`
+
+HEADER=`cat <<EOF
+opening: Dear Recruiting Manager,
+closing: Sincerely,
+\n
+EOF
+`
+
+DATE=`cat <<EOF
+date: %s
+\n
+EOF
+`
+
+INTRO=`cat <<EOF
+My name is %s. I am a %s graduate with experience in
+%s.
+\n
+EOF
+`
+
+JOB=`cat <<EOF
+I was really excited to see this posting for %s %s.
+\n
+EOF
+`
+
+RANGE=`cat <<EOF
+I have years of experience in a wide range of
+disciplines – from %s, to %s, to %s.
+\n
+EOF
+`
+
+EXPERIENCE=`cat <<EOF
+My most relevent previous position was at the $LOCATION0. A
+subset of the $SUBSET. I led a small team where I
+developed %s.
+\n
+EOF
+`
+
+REQUIREMENTS=`cat <<EOF
+From your job posting, the position requires %s, %s, and
+%s, among other qualifications.
+\n
+EOF
+`
+
+ROVERLAP=`cat <<EOF
+From my experience in %s, %s, %s, and %s.
+\n
+EOF
+`
+
+PREFERRED=`cat <<EOF
+The listing also mentioned a set of preferred, supplementary
+skills such as %s and %s.
+\n
+EOF
+`
+
+POVERLAP=`cat <<EOF
+From my experience in %s, I've learned about %s and
+%s.
+\n
+EOF
+`
+
+LEARN=`cat <<EOF
+Even though, I am unfamiliar and have very limited
+knowlegde of %s, I am a quick and eager learner.
+\n
+EOF
+`
+
+MARKET=`cat <<EOF
+That being said, I am interested in working for industries
+that make an impact in %s.
+\n
+EOF
+`
+
+ETHOS=`cat <<EOF
+With my willingness to learn and overall expertise, I
+am confident that I would make me a fantastic addition
+to %s.
+\n
+EOF
+`
+
+
+FINDMYINFO=`cat <<EOF
+My resume will give you a greater understanding of my
+capabilities and qualifications. Please contact me if
+you have any questions.
+\n
+EOF
+`
+

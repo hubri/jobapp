@@ -1,0 +1,59 @@
+#!/bin/sh
+
+NAME="Big Money"
+WEBSITE="https://idkmanigotfeelings.com"
+EMAIL="null@gmail.com"
+PHONE="(866)-740-4531"
+MAJOR="Automation"
+OCCUPATION="Cloning Git Repos"
+DATE0=$(date '+%B %d, %Y')
+ADDRESS0="122b Baker St"
+ADDRESS1="London, KFC 00000"
+
+
+JOBNAME="Anime Expert"
+JOBID=""
+
+RANGE0="Sub-genre labeling"
+RANGE1="history-clearing"
+RANGE2="cringe-suppression"
+
+COMPANY="Studio Goober"
+MARKET0="Japanese Cartoons"
+
+SKILL0=""
+SKILL1=""
+SKILL2=""
+SKILL3=""
+SKILL4=""
+SKILL5=""
+SKILL6=""
+
+EXPERIENCE0=""
+EXPERIENCE1=""
+EXPERIENCE2=""
+
+REQUIRMENT0="never turn on subtitles"
+REQUIRMENT1="praise Neon Genesis Evangelion without ever
+watching it"
+REQUIRMENT2="only play fire-emblem characters in smash
+bros."
+
+RO0="Crunchyroll"
+RO1="I know like 19 different languages just like Missandrei (RIP)."
+RO2="just call me oregon trail, because I'm down to
+bandwagon"
+RO3="I know Roy's Fsmash's hitbox comes out on frame 14"
+
+
+LEARN0="drawn once in my life"
+
+PREFERRED0=""
+PREFERRED1=""
+PREFERRED2=""
+
+PO0=""
+PO1=""
+PO2=""
+
+

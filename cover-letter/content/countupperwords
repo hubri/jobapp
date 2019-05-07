@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#tr -sc 'A-Za-z' '\n' < $1 | sort | uniq -c | sort -g
+#tr -d [:lower:][:lower:] < $1 | sort | uniq -c | sort -g
+
+grep -o "[[:upper:]][[:alpha:]]*" $1 --color=always | sort | uniq -c | sort -g

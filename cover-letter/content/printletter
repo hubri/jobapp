@@ -1,0 +1,27 @@
+#!/bin/sh
+
+
+. ./formats
+. ./arguments
+
+echo "---"
+printf "$AUTHOR" "$NAME" "$WEBSITE" "$EMAIL" "$PHONE"
+printf "$HEADER"
+printf "$DATE" "$DATE0"
+printf "$ADDRESS" "$ADDRESS0" "$ADDRESS1"
+printf "$METADATA"
+
+printf "$INTRO" "$NAME" "$MAJOR" "$OCCUPATION"
+printf "$JOB" "$JOBNAME" "$JOBID"
+
+printf "$RANGE" "$RANGE0" "$RANGE1" "$RANGE2"
+
+#printf "$EXPERIENCE"
+printf "$REQUIREMENTS" "$REQUIRMENT0" "$REQUIRMENT1" "$REQUIRMENT2"
+printf "$ROVERLAP" "$RO0" "$RO1" "$RO2" "$RO3"
+#printf "$PREFERRED"
+#printf "$POVERLAP"
+printf "$LEARN" "$LEARN0"
+printf "$MARKET" "$MARKET0"
+printf "$ETHOS" "$COMPANY"
+printf "$FINDMYINFO"
