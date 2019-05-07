@@ -1,12 +1,10 @@
 # My Markdown Pandoc Resume
 
-This was inspired by my deep anguish for updating my resume using Microsoft Word.
-For those who've used it, I'm sure you understand the pain.
-The constant format tinkering, the laggy startup. There is no winning. Only pain and proprietary software. Oh I dream of the days where painless plain-text writing will prevail! 
+markdown-to-anything resume generator
 
 If you would like to emulate how my Resume is made, however, please take a look at this blog [post](http://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html)
 
-The process is *fairly* simple. 
+The process is *fairly* simple.
 
 ## You need:
 * [Pandoc](https://pandoc.org/)
@@ -18,7 +16,7 @@ The process is *fairly* simple.
 * [Markdown Knowledge](https://pandoc.org/MANUAL.html#pandocs-markdown)
 : Markdown is great, but there are different 'flavors'. It'd be good to read up about Pandoc's style of Markdown.
 * MakeFile
-: Once you run `$ make` it'll just compile your document :) no need to go through each command in the command line! 
+: Once you run `$ make` it'll just compile your document :) no need to go through each command in the command line!
 
 
 ## Benefits
@@ -28,12 +26,12 @@ The process is *fairly* simple.
 
 
 ## Installation
-* Pandoc 
-    - Mac OSX -> ` brew install pandoc` 
+* Pandoc
+    - Mac OSX -> ` brew install pandoc`
     - Windows Users -> idk google it
     - Linux Users -> sudo-apt-get?
-* WKhtmltopdf 
-    - Mac OSX -> ` brew cask install wkhtmltopdf` 
+* WKhtmltopdf
+    - Mac OSX -> ` brew cask install wkhtmltopdf`
     - Windows Users -> idk google it
     - Linux Users -> sudo-apt-get?
 
@@ -48,4 +46,4 @@ The process is *fairly* simple.
 
 #### Special Thanks
 - My mom
-- This simple [ MakeFile ](https://github.com/chmduquesne/resume/blob/master/Makefile). 
+- This simple [ MakeFile ](https://github.com/chmduquesne/resume/blob/master/Makefile).
