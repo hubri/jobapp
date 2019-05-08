@@ -1,22 +1,29 @@
 # My Markdown Pandoc Resume
 
-markdown-to-anything resume generator
+markdown-to-anything resume/cover-letter generator
 
-If you would like to emulate how my Resume is made, however, please take a look at this blog [post](http://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html)
 
 The process is *fairly* simple.
 
-## You need:
+## Usage:
+
+Edit contents of resume.md
+
+    $ [ed/nano/vim/sublime] resume/resume.md
+    $ make
+
+Use templating for cover-letter
+
+    $ cd cover-letter/content
+    $ [ed/nano/vim/sublime] arguments
+    $ ./printletter > ../letter.md
+    $ make
+
+## Dependencies:
 * [Pandoc](https://pandoc.org/)
-: A Swiss-Army Knife command line utility to convert anything into anything.
-* [ Wkhtmltopdf ](https://wkhtmltopdf.org/)
-: A way to convert HTML documents to PDF ones, in an interesting way.
+* [Wkhtmltopdf](https://wkhtmltopdf.org/)
 * [CSS Knowledge](https://developer.mozilla.org/en-US/docs/Web/CSS)
-: The stupidest, yet most necessary programming language for styling things.
 * [Markdown Knowledge](https://pandoc.org/MANUAL.html#pandocs-markdown)
-: Markdown is great, but there are different 'flavors'. It'd be good to read up about Pandoc's style of Markdown.
-* MakeFile
-: Once you run `$ make` it'll just compile your document :) no need to go through each command in the command line!
 
 
 ## Benefits
@@ -34,15 +41,6 @@ The process is *fairly* simple.
     - Mac OSX -> ` brew cask install wkhtmltopdf`
     - Windows Users -> idk google it
     - Linux Users -> sudo-apt-get?
-
-## Workflow
-
-1) Edit Resume.md
-    - Update your resume!
-    - (Be sure to look at the CSS. If you want things to appear on the right hand side, apply a header7 with the `{#right}` attribute. It'll add the`float: right;` attribute
-2) Run the makefile
-    - `$ make`
-
 
 #### Special Thanks
 - My mom
