@@ -1,0 +1,17 @@
+#!/bin/sh
+
+NAME="JD"
+FILENAME="signature0.png"
+
+convert -background transparent \
+        -fill black  \
+        -font MathJax_Script-Regular \
+        -pointsize 42  \
+        -kerning -12 \
+        -size 70x45 \
+        -gravity center \
+        label:$NAME \
+        $FILENAME
+
+feh $FILENAME
+

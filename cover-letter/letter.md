@@ -1,26 +1,27 @@
 ---
 author:
-- Guillermo A. Rodriguez
-- https://pineapplegiant.com
-- rodrguil@oregonstate.edu
-- (407)-802-6655
+- Big Money
+- https://idkmanigotfeelings.com
+- null@gmail.com
+- (866)-740-4531
+
 opening: Dear Recruiting Manager,
 closing: Sincerely,
-date: February, 20th 2019
+
+date: May 07, 2019
+
 address:
--  
-- Jeppesen
+-
 return-address:
-- 
-- 
-- 
-- 1243 Washington St
-- Denver, CO 80203
+- 122b Baker St
+- London, KFC 00000
+
 fontfamily: mathpazo
 fontsize: 12pt
 geometry: margin=1.0in
-letterhead: ./assets/letterhead.png 
-signature: ./assets/signature.png
+letterhead: ./assets/letterhead/blank.png
+signature: ./assets/signature/signature0.png
+letterhead-before: -4ex
 signature-before: -4ex
 signature-after: 0ex
 closing-indentation: 0pt
@@ -28,13 +29,33 @@ links-as-notes: true
 colorlinks: true
 ...
 
-As a computer science student with experience in software development, I was really excited to see this posting for the Software Engineering Internship that you are offering.
+My name is Big Money. I am a Automation graduate with experience in
+Cloning Git Repos.
 
-I have years of experience in a wide range of environments – from software development, to traditional engineering work, and  even in a teaching role as a math instructor. In my last position at the University of South Florida IT Department, I led a small team where I developed models in the Django web framework. There, I had the pleasure of working as both a software consultant and web developer, presenting potential solutions and then implementing them for the Global Center for Hearing & Speech Research group.
-Leading a team of undergraduate students with no previous experience in software development in an agile team environment proved to be a fruitful leadership experience, as I had the pleasure of teaching multiple technologies; such as git, gitlab, Django development techniques, and the linux command line. 
+I was really excited to see this posting for Anime Expert .
 
-That being said, I believe in working for industries that make an impact and that I am passionate for. With my willingness to learn and overall expertise, I am confident that I would make me a fantastic addition to your team.
+I have years of experience in a wide range of
+disciplines – from Sub-genre labeling, to history-clearing, to cringe-suppression.
 
-My resume and personal website will give you a greater understanding of my capabilities and qualifications. Please contact me if you have any questions.
+From your job posting, the position requires never turn on subtitles, praise Neon Genesis Evangelion without ever
+watching it, and
+only play fire-emblem characters in smash
+bros., among other qualifications.
 
+From my experience in Crunchyroll, I know like 19 different languages just like Missandrei (RIP)., just call me oregon trail, because I'm down to
+bandwagon, and I know Roy's Fsmash's hitbox comes out on frame 14.
+
+Even though, I am unfamiliar and have very limited
+knowlegde of drawn once in my life, I am a quick and eager learner.
+
+That being said, I am interested in working for industries
+that make an impact in Japanese Cartoons.
+
+With my willingness to learn and overall expertise, I
+am confident that I would make me a fantastic addition
+to Studio Goober.
+
+My resume will give you a greater understanding of my
+capabilities and qualifications. Please contact me if
+you have any questions.
 

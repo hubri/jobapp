@@ -8,7 +8,7 @@ EDUCATION
 ####### **| GPA:** 4.20 {#right}
 ####### **Graduated:** July 2018 {#right}
 ####### **$SCHOOL0**
-####### $MAJOR0, Bachelor of Science
+####### $MAJOR, Bachelor of Science
 
 
 PROJECTS
